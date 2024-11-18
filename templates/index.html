@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+{% extends 'base.html' %}
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hacker House &amp; Services</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" id="sage/main.css-css" href="{{url_for('static', filename='css/main_790976ee.css')}}"
+        type="text/css" media="all">
+    <!-- Custome CSS/ -->
+    <link rel="icon" href="{{url_for('static', filename='images/cropped-hh-favico-32x32.png')}}" sizes="32x32">
+    <link rel="icon" href="{{url_for('static', filename='images/cropped-hh-favico-192x192.png')}}" sizes="192x192">
+    <link rel="apple-touch-icon" href="{{url_for('static', filename='images/cropped-hh-favico-180x180.png')}}">
+
+    <script type="text/javascript" src="{{url_for('static', filename='contact_us/js/jquery.min.js')}}" id="jquery-js"></script>
+
+</head>
+
+<body
+    class="home page-template page-template-page-home page-home page page-id-2 theme-hackerhouse/resources">
+{% block content %}
+<main class="main">
+        <div class="back-slash">
+            <div class="container">
+                <section class="widget hero">
+                    <div class="inner">
+                        <div class="content">
+                            <h1>Website Security Specialists</h1>
+                            <b>
+                                <h3>Empowering your online presence with cutting-edge scanning solutions</h3>
+                            </b>
+                            <div class="button-area">
+                                <a class="button green" href="/scans">Services</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="double-back-slash all-green">
+            <div class="container">
+                <section class="widget we-are">
+                    <div class="content">
+                        <h3>From Beginners to Experts, We Equip You to</h3>
+                        <h2>Anticipate Cyber Threats</h2>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="gray-bg">
+            <div class="container">
+                <section class="widget logo-arrow">
+                    <div class="content">
+                        <p>In an era defined by digital evolution, web security is non-negotiable. Our platform empowers
+                            users with cutting-edge
+                            scanning solutions to safeguard their online presence. With intuitive tools and
+                            comprehensive assessments, we equip
+                            individuals and businesses to detect vulnerabilities before they become threats. Stay ahead
+                            of cyber risks with our
+                            efficient and effective web scanning services.</p>
+                        <a class="about" href="about_us.html" title="More about us">More about us&nbsp;&gt;</a>
+                    </div>
+                    <a class="arrow-down" title="Go down"><span>Go down</span></a>
+                </section>
+            </div>
+        </div>
+
+        <div class="our-services-bg">
+            <div class="container">
+                <section class="widget our-services">
+                    <h2>Our Scanning Services</h2>
+                    <ul class="services-list">
+                        <li>
+                            <div class="inner">
+                                <img src="{{url_for('static', filename='images/penetration-test-1.png')}}"
+                                    alt="NETWORK SCANNING">
+                                <h3>NETWORK SCANNING</h3>
+                                <a href="/scans#service-1" title="NETWORK SCANNING">view&nbsp;&gt;</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="inner">
+                                <img src="../static/images/red-team-1.png" alt="BURST SCAN">
+                                <h3>BURST SCAN</h3>
+                                <a href="/scans#service-2" title="BURST SCAN">view&nbsp;&gt;</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="inner">
+                                <img src="../static/images/database-1.png" alt="SERVER SCAN">
+                                <h3>SERVER SCAN</h3>
+                                <a href="/scans#service-3" title="SERVER SCAN">view&nbsp;&gt;</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="inner">
+                                <img src="../static/images/production-evaluation-1.png"
+                                    alt="OWASP-10 SCAN">
+                                <h3>OWASP-10 SCAN</h3>
+                                <a href="/scans#service-4" title="OWASP-10 SCAN">view&nbsp;&gt;</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="inner">
+                                <img src="../static/images/hardware-security-testing-1.png"
+                                    alt="SQL INJECTION">
+                                <h3>SQL INJECTION</h3>
+                                <a href="/scans#service-5" title="SQL INJECTION">view&nbsp;&gt;</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="inner">
+                                <img src="../static/images/vulnerability-analysis-1.png"
+                                    alt="EXPLOIT FINDER">
+                                <h3>EXPLOIT FINDER</h3>
+                                <a href="/scans#service-6" title="EXPLOIT FINDER">view&nbsp;&gt;</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="inner">
+                                <img src="../static/images/forensic-1.png"
+                                    alt="WORDPRESS SCAN">
+                                <h3>WORDPRESS SCAN</h3>
+                                <a href="/scans#service-7" title="WORDPRESS SCAN">view&nbsp;&gt;</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="inner">
+                                <img src="../static/images/mobile-security-testing-1.png"
+                                    alt="SUB-DOMAIN FINDER">
+                                <h3>SUB-DOMAIN FINDER</h3>
+                                <a href="/scans#service-8" title="SUB-DOMAIN FINDER">view&nbsp;&gt;</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="inner">
+                                <img src="../static/images/blockchain.png"
+                                    alt="DIRECTORY SCANNER">
+                                <h3>DIRECTORY SCANNER</h3>
+                                <a href="/scans#service-9" title="DIRECTORY SCANNER">view&nbsp;&gt;</a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <div class="training-bg">
+            <div class="container">
+                <section class="widget training">
+                    <div class="title-back-slash">
+                        <h2>Training</h2>
+                    </div>
+                    <ul class="training-list">
+
+                        <li>
+                            <div class="inner">
+                                <img src="../static/images/workshops.png" alt="WORKSHOPS">
+                                <h3>WORKSHOPS</h3>
+                                <p>We teach hacking skills in a class-room environment. Come and learn more about our
+                                    knowledge transfer
+                                    services.</p>
+                                <a class="button green" href="/training" title="WORKSHOPS">Enter</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="inner">
+                                <img src="../static/images/hands.png" alt="LIVE ONLINE">
+                                <h3>LIVE ONLINE</h3>
+                                <p>We provide online resources and environments for distance learners. Learn about our
+                                    online training.
+                                </p>
+                                <a class="button green" href="/training" title="LIVE ONLINE">Enter</a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <div class="light-gray-bg fingerprint top">
+            <div class="container">
+                <section class="widget newsletter">
+                    <div class="title-back-slash">
+                        <h2>Get Our Latest Updates</h2>
+                    </div>
+                    <div class="form">
+                        <form id="newsletter-subscription" method="post" action="#"
+                            data-success="You've been subscribed successfully. Thank you!"
+                            data-error="An error has occurred. Please try again later.">
+                            <input id="newsletter-subscription-input" type="email" name="email"
+                                data-error="Please enter a valid email and try again." placeholder="Enter your email">
+                            <input id="newsletter-subscription-submit" type="submit" class="green" name="submit"
+                                value="Subscribe">
+                            <input type="hidden" id="security" name="security" value="e220904f26">
+                        </form>
+                        <p class="small">We respect your privacy and don't spam.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </main>
+<!--  <div id="cookies-notice" tabindex="0">-->
+<!--    <button class="close icon-close accept-button"></button>-->
+<!--    <h2>All Computers Are Broken</h2>-->
+<!--    <p>We use cookies to understand how you use our site and to improve your browsing experience. We only use essential-->
+<!--      cookies required for serving our website to you at all times. By continuing to use our site, you accept our use of-->
+<!--      essential cookies. If you do not agree to our use of essential cookies, click no here and you will be redirected-->
+<!--      away from our website.</p>-->
+<!--    <p>-->
+<!--      <a class="action accept-button">[Y]es I agree</a><a class="action deny-button">[N]o I do not agree</a>-->
+<!--    </p>-->
+<!--    <p class="prompt">~ HH</p>-->
+<!--  </div>-->
+
+  <!-- Also responcible for Coockie Settings -->
+  <script type="text/javascript" src="{{url_for('static', filename='contact_us/js/main_790976ee.js')}}" id="sage/main.js-js"></script>
+    {% endblock %}
+</body>
+
+</html>

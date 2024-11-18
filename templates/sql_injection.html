@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='/scanners/style.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <video autoplay loop muted plays-inline class="background-clip">
+            <source src="{{url_for('static', filename='/scanners/images/tech_loop.mp4')}}" type="video/mp4">
+        </video>
+<!-- Animation Start here -->
+<form action="anonymous" method="POST" class="container">
+    <div class="input-container">
+        <div class="input-content">
+            <div class="input-dist">
+                <span id="SubscribeTXT">SQL Injection</span>
+                <div class="input-type">
+                    <input placeholder="Website URL" required="" type="text" class="input-is" name="domain">
+                    <input type="hidden" value="sql_injection" name="scanner">
+                </div>
+                <button>Scan Now</button>
+                <a href="scans" class="goback">Go Back</a>
+            </div>
+        </div>
+    </div>
+</form>
+        </div>
+<!-- Animation Stops here  -->
+</body>
+</html>
